@@ -11,7 +11,6 @@ struct Event: Decodable & Equatable {
     let title : String
     let start : Date
     let end : Date
-    var conflictingEvent : Bool = false 
     var interval : DateInterval {
         .init(start: start, end: end)
     }
