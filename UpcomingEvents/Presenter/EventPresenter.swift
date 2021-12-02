@@ -116,7 +116,7 @@ class EventPresenter {
                 
                 //We can safely append nextEvent, even if when currentEvent gets set as nextEvent we are previously checking for duplicates
                 conflictingEvents.append(eventArray[nextEvent])
-                print("\(eventArray[currentEvent].title) overlaps with \(eventArray[nextEvent].title)")
+                
             } else {
                 //No overlap between events, make currentEvent the next clear event as everything before is conflicting
                 currentEvent = nextEvent

@@ -65,7 +65,6 @@
                                                             <color key="tintColor" red="0.96862745098039216" green="0.71764705882352942" blue="0.19215686274509802" alpha="1" colorSpace="calibratedRGB"/>
                                                             <state key="normal" image="warning-sign"/>
                                                             <connections>
-                                                                <action selector="warningButtonPressed:" destination="2na-p0-atc" eventType="touchUpInside" id="j7P-bn-2WW"/>
                                                                 <action selector="warningButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dl7-rB-n8m"/>
                                                             </connections>
                                                         </button>
